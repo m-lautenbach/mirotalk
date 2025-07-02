@@ -186,13 +186,17 @@ const ngrokAuthToken = process.env.NGROK_AUTH_TOKEN;
 // Turn (https://bloggeek.me/webrtcglossary/turn/)
 const iceServers = [];
 const stunServerUrl = process.env.STUN_SERVER_URL;
+const stunServerUsername = process.env.STUN_SERVER_USERNAME;
+const stunServerCredential = process.env.STUN_SERVER_CREDENTIAL;
 const turnServerUrl = process.env.TURN_SERVER_URL;
 const turnServerUsername = process.env.TURN_SERVER_USERNAME;
 const turnServerCredential = process.env.TURN_SERVER_CREDENTIAL;
 const stunServerEnabled = getEnvBoolean(process.env.STUN_SERVER_ENABLED);
 const turnServerEnabled = getEnvBoolean(process.env.TURN_SERVER_ENABLED);
 // Stun is mandatory for not internal network
-if (stunServerEnabled && stunServerUrl) iceServers.push({ urls: stunServerUrl });
+if (stunServerEnabled && stunServerUrl) {
+    iceServers.push({ urls: stunServerUrl, username: stunServerUsername, credential: stunServerCredential });
+};
 // Turn is recommended if direct peer to peer connection is not possible
 if (turnServerEnabled && turnServerUrl && turnServerUsername && turnServerCredential) {
     iceServers.push({ urls: turnServerUrl, username: turnServerUsername, credential: turnServerCredential });
