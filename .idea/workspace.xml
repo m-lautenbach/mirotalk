@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5e3cbdf5-0d10-4222-a378-3507b6a6aa43" name="Changes" comment="Add end 2end test (WIP)&#10;&#10;Mostly working, but needs to wait for video to be ready">
+      <change beforePath="$PROJECT_DIR$/tests/e2e.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tests/e2e.spec.ts" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
+  </component>
+  <component name="PackageJsonUpdateNotifier">
+    <dismissed value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2zKjcJYw0BXPytyEhq0JtdrVzvE" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Mocha.test-Validator.executor": "Run",
+    "Mocha.test-api.executor": "Run",
+    "Mocha.test-xss.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "javascript.nodejs.core.library.configured.version": "22.16.0",
+    "javascript.nodejs.core.library.typings.version": "22.16.0",
+    "last_opened_file_path": "/home/markuslautenbach/WebstormProjects/mirotalk/app/src",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs.mocha.mocha_node_package_dir": "/home/markuslautenbach/WebstormProjects/mirotalk/node_modules/mocha",
+    "nodejs_package_manager_path": "npm",
+    "npm.start-dev.executor": "Run",
+    "prettierjs.PrettierConfiguration.Package": "/home/markuslautenbach/WebstormProjects/mirotalk/node_modules/prettier",
+    "settings.editor.selected.configurable": "settings.sync",
+    "ts.external.directory.path": "/home/markuslautenbach/.local/share/JetBrains/Toolbox/apps/webstorm/plugins/javascript-plugin/jsLanguageServicesImpl/external"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/src" />
+      <recent name="$PROJECT_DIR$/client" />
+      <recent name="$PROJECT_DIR$/client/src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.start-dev">
+    <configuration name="start-dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start-dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="test-Validator" type="mocha-javascript-test-runner" temporary="true" nameIsGenerated="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <mocha-package>$PROJECT_DIR$/node_modules/mocha</mocha-package>
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>SUITE</test-kind>
+      <test-file>$PROJECT_DIR$/tests/test-validate.js</test-file>
+      <test-names>
+        <name value="test-Validator" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="test-api" type="mocha-javascript-test-runner" temporary="true" nameIsGenerated="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <mocha-package>$PROJECT_DIR$/node_modules/mocha</mocha-package>
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>SUITE</test-kind>
+      <test-file>$PROJECT_DIR$/tests/test-api.js</test-file>
+      <test-names>
+        <name value="test-api" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="test-xss" type="mocha-javascript-test-runner" temporary="true" nameIsGenerated="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <mocha-package>$PROJECT_DIR$/node_modules/mocha</mocha-package>
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>SUITE</test-kind>
+      <test-file>$PROJECT_DIR$/tests/test-xss.js</test-file>
+      <test-names>
+        <name value="test-xss" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.start-dev" />
+        <item itemvalue="Mocha.test-xss" />
+        <item itemvalue="Mocha.test-Validator" />
+        <item itemvalue="Mocha.test-api" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-09060db00ec0-JavaScript-WS-251.26927.40" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5e3cbdf5-0d10-4222-a378-3507b6a6aa43" name="Changes" comment="" />
+      <created>1751486737173</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1751486737173</updated>
+      <workItem from="1751486738664" duration="2625000" />
+      <workItem from="1751531538824" duration="3968000" />
+      <workItem from="1751536747128" duration="2065000" />
+      <workItem from="1751542525338" duration="1850000" />
+      <workItem from="1751550162363" duration="71000" />
+      <workItem from="1751550244757" duration="577000" />
+      <workItem from="1751551036649" duration="4122000" />
+    </task>
+    <task id="LOCAL-00001" summary="For now don't allow crawling; add stun credentials support">
+      <option name="closed" value="true" />
+      <created>1751489193813</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1751489193813</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Restructure to make space for client">
+      <option name="closed" value="true" />
+      <created>1751532119607</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1751532119607</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Remove sending stats to mirotalk">
+      <option name="closed" value="true" />
+      <created>1751532817487</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1751532817487</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Starting new client setup / migration (very much WIP)">
+      <option name="closed" value="true" />
+      <created>1751542581422</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1751542581422</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Add end 2end test (WIP)&#10;&#10;Mostly working, but needs to wait for video to be ready">
+      <option name="closed" value="true" />
+      <created>1751553975272</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1751553975272</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="HEAD" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="false" />
+                </map>
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="For now don't allow crawling; add stun credentials support" />
+    <MESSAGE value="Restructure to make space for client" />
+    <MESSAGE value="Remove sending stats to mirotalk" />
+    <MESSAGE value="Starting new client setup / migration (very much WIP)" />
+    <MESSAGE value="Add end 2end test (WIP)&#10;&#10;Mostly working, but needs to wait for video to be ready" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add end 2end test (WIP)&#10;&#10;Mostly working, but needs to wait for video to be ready" />
+  </component>
+</project>
