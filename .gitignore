@@ -24,3 +24,4 @@ output
 env.txt
 
 tests/videos
+test-results
